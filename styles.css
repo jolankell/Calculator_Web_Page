@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: greenyellow;
+    text-shadow: 2px -2px 2px greenyellow;
+}
+
+.calculator {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    background-color: rgb(58, 58, 58);
+    padding: 20px;
+    height: 450px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 2px -2px 2px rgb(114, 114, 114), -2px -2px 2px rgb(114, 114, 114);
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+input {
+    width: 95%;
+    height: 100%;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 4px 4px 8px rgb(8, 8, 8), inset -4px -4px 8px rgb(8, 8, 8);
+}
+
+input:hover {
+    background-color: rgb(243, 241, 241);
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+    padding-bottom: 20px;
+}
+
+.number {
+    text-shadow: 1px -1px 1px black;
+    border: none;
+    box-shadow: inset 4px 4px 8px rgb(20, 20, 20), inset -4px -4px 8px rgb(20, 20, 20);
+}
+
+.number:hover {
+    background-color: rgb(213, 212, 212);
+}
+
+.sign {
+    background-color: black;
+    color: white;
+    text-shadow: 1px -1px 1px white;
+    border: none;
+    box-shadow: inset 4px 4px 8px rgb(91, 91, 91), inset -4px -4px 8px rgb(91, 91, 91);
+}
+
+.sign:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+.clear {
+    background-color: red;
+    text-shadow: 1px -1px 1px black;
+    border: none;
+    box-shadow: inset 4px 4px 8px rgb(20, 20, 20), inset -4px -4px 8px rgb(20, 20, 20);
+}
+
+.clear:hover {
+    background-color: rgb(192, 3, 3);
+}
